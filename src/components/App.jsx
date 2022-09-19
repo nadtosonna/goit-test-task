@@ -48,7 +48,7 @@ export class App extends Component {
   isExisting({ name, number }) {
     const { contacts } = this.state;
     const check = contacts
-      .find(contact => contact.name.toLowerCase() === name.toLowerCase() && contact.number === number);
+      .find(contact => contact.name.toLowerCase() === name.toLowerCase() || contact.number === number);
     return check;
   }
 
