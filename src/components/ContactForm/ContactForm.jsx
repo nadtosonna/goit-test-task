@@ -35,7 +35,8 @@ export class ContactForm extends Component {
     render() {
         return (
             <form onSubmit={this.handleSubmit} className={css.form}>
-                <div className={css.nameBlock}>
+                <div className={css.wrapper}>
+                    <div className={css.nameBlock}>
                     <input
                         value={this.state.name}
                         onChange={this.handleChange}
@@ -63,6 +64,8 @@ export class ContactForm extends Component {
                     />
                     <label htmlFor="number" className={css.label}>Number</label>
                 </div> 
+                </div>
+
             <button type='submit' className={css.addBtn}> <AiOutlinePlusCircle size={30} /> </button>
             </form>
         )

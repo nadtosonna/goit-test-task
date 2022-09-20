@@ -4,6 +4,7 @@ import { Notify } from 'notiflix/build/notiflix-notify-aio';
 import { ContactForm } from "./ContactForm/ContactForm";
 import { ContactList } from "./ContactList/ContactList";
 import { SearchFilter } from "./SearchFilter/SearchFilter";
+import { Section } from './Section/Section';
 import css from './App.module.css';
 
 export class App extends Component {
@@ -70,11 +71,11 @@ export class App extends Component {
   render() {
     return (
       <div className={css.container}>
-        <h1>Phonebook</h1>
-        <ContactForm onSubmit={this.addContact} />
-
-        <h2>Contacts</h2>
-        <SearchFilter
+        <Section title="Phonebook">
+           <ContactForm onSubmit={this.addContact} />
+        </Section>
+        <Section title="Contacts">
+          <SearchFilter
           filter={this.state.filter}
           handleSearchFilter={this.handleSearchFilter} />
         {this.state.contacts.length > 0 ? (
@@ -82,7 +83,7 @@ export class App extends Component {
           contacts={this.filterContacts()}
           deleteContact={this.deleteContact} />
         ) : <p className={css.emptyList}>Your Contact List is empty.</p>}
-
+        </Section>
       </div>
     );
   }
