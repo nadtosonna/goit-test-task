@@ -1,0 +1,55 @@
+[
+  {
+  "id": 1,
+  "name": "Sara Polson",
+  "tweets": 301,
+  "followers": 3500560,
+  "avatar": "https://cdn-icons-png.flaticon.com/512/2922/2922506.png",
+  "follow": false
+  },
+
+  {
+  "id": 2,
+  "name": "Evan Peters",
+  "tweets": 423,
+  "followers": 2890632,
+  "avatar": "https://cdn-icons-png.flaticon.com/512/2922/2922506.png",
+  "follow": false
+  },
+
+  {
+  "id": 3,
+  "name": "Evan McGregor",
+  "tweets": 180,
+  "followers": 5300202,
+  "avatar": "https://cdn-icons-png.flaticon.com/512/2922/2922506.png",
+  "follow": false
+  },
+
+  {
+  "id": 4,
+  "name": "Eva Green",
+  "tweets": 860,
+  "followers": 5630235,
+  "avatar": "https://cdn-icons-png.flaticon.com/512/2922/2922506.png",
+  "follow": false
+  },
+
+  {
+  "id": 5,
+  "name": "Timothee Chalamet",
+  "tweets": 1868,
+  "followers": 10230529,
+  "avatar": "https://cdn-icons-png.flaticon.com/512/2922/2922506.png",
+  "follow": false
+  },
+
+  {
+  "id": 6,
+  "name": "Jenna Ortega",
+  "tweets": 13200,
+  "followers": 7510202,
+  "avatar": "https://cdn-icons-png.flaticon.com/512/2922/2922506.png",
+  "follow": false
+  }
+]

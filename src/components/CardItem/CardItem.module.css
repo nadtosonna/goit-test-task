@@ -1,0 +1,99 @@
+.card {
+    position: relative;
+    background: linear-gradient(114.99deg, #471CA9 -0.99%, #5736A3 54.28%, #4B2A99 78.99%);
+    width: 380px;
+    height: 520px;
+    box-shadow: -2.5777px 6.87386px 20.6216px rgba(0, 0, 0, 0.23);
+    border-radius: 20px;
+    text-align: center;
+}
+.logo {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+}
+.imgBlock {
+    height: 50%;
+    background-image: url(../../images/background.png);
+    background-repeat: no-repeat;
+    background-size: auto;
+    background-position: center;
+    border-bottom: 8px solid #EBD8FF;
+}
+.description {
+    padding: 10px;
+}
+.avatar {
+    z-index: 111;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: 50%;
+    left: 50%;
+    width: 80px;
+    height: 80px;
+    border-radius: 100%;
+    border: 8px solid #EBD8FF;
+    background: linear-gradient(114.99deg, #471CA9 -0.99%, #5736A3 54.28%, #4B2A99 78.99%);
+    box-shadow: 0px 3.43693px 3.43693px rgba(0, 0, 0, 0.06),
+        inset 0px -1.71846px 3.43693px #AE7BE3,
+        inset 0px 3.43693px 2.5777px #FBF8FF;
+}
+.name {
+    font-size: 42px;
+    font-weight: 700;
+    text-align: center;
+}
+.info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin-top: 26px;
+}
+.stats {
+    margin-bottom: 16px;
+    color: #EBD8FF;
+    font-size: 20px;
+    line-height: 24px;
+    text-transform: uppercase;
+}
+
+.stats:first-child {
+    color: #5CD3A8;
+    font-weight: 600;
+    text-decoration: underline;
+}
+
+.button {
+    margin-left: auto;
+    margin-right: auto;
+    padding: 14px 28px;
+    width: 196px;
+    height: 50px;
+    background: #EBD8FF;
+    box-shadow: 0px 3.43693px 3.43693px rgba(0, 0, 0, 0.25);
+    border-radius: 10.3108px;
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 22px;
+    color: #373737;
+    font-family: inherit;
+}
+
+.buttonActive {
+    margin-left: auto;
+    margin-right: auto;
+    padding: 14px 28px;
+    width: 196px;
+    height: 50px;
+    background: #5CD3A8;
+    box-shadow: 0px 3.43693px 3.43693px rgba(0, 0, 0, 0.25);
+    border-radius: 10.3108px;
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 22px;
+    color: #373737;
+    font-family: inherit;
+}
