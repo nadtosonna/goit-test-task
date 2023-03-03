@@ -1,7 +1,6 @@
 .section {
-    padding: 20px;
+    padding: 30px;
 }
-
 .list {
     display: flex;
     flex-direction: row;
